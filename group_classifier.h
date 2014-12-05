@@ -2,6 +2,7 @@
 #ifndef GROUP_CLASSIFIER_H
 #define GROUP_CLASSIFIER_H
 
+#include "old_ml.hpp"
 #include <opencv/cv.h>
 #include <opencv/ml.h>
 

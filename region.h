@@ -3,7 +3,8 @@
 #define REGION_H
 
 #include <opencv/cv.h>
-#include <opencv/highgui.h>
+#include <opencv2/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
 
 #include <vector>
 #include <stdint.h>

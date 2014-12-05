@@ -1,6 +1,9 @@
 #define _MAIN
 
-#include <opencv/highgui.h>
+#include <opencv2/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+
+using namespace cv;
 
 #include <iostream>
 #include <fstream>
@@ -18,7 +21,6 @@
 #define DECISION_THRESHOLD_SF 0.999999999
 
 using namespace std;
-using namespace cv;
 
 #include "utils.h"
 
